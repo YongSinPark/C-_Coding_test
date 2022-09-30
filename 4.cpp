@@ -76,8 +76,8 @@ NameCard::NameCard(const char* name, const char* company, const char* phone_num,
     strcpy(pnt->company, company);
     strcpy(pnt->phone_num, phone_num);
     pnt->comp_pos = comp_pos;
-    cout << pnt->name << " " << pnt->company << " " << pnt->phone_num << " " << pnt->comp_pos << endl;
-    cout << this->pnt << endl;
+    // cout << pnt->name << " " << pnt->company << " " << pnt->phone_num << " " << pnt->comp_pos << endl;
+    // cout << this->pnt << endl;
     this->pnt = pnt;
 }
 
@@ -85,7 +85,6 @@ NameCard::~NameCard() {}
 
 void NameCard::ShowNameCardInfo()   
 {
-    cout << this->pnt << endl;
     cout << "이름 : " << pnt->name << endl;
     cout << "회사 : " << pnt->company << endl;
     cout << "휴대폰번호 : " << pnt->phone_num << endl;

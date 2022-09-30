@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.0.0)
 project(Test)
 
 add_executable(${PROJECT_NAME}
-    ./3.cpp
+    ./Hw01_Bank_system.cpp
 )
 
 target_include_directories(${PROJECT_NAME} PUBLIC
